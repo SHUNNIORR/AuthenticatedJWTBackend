@@ -1,9 +1,22 @@
-# Spring Security Login System Tutorial Code
 
-Java application code for a Spring Boot 3+, Spring Data JPA, Spring Security, Spring Web, and OAuth2Resource server application which allows users to login or register using HTTP POST requests, then view endpoints based on their roles.
+# ATM - Backend
 
-Users are authenticated against a database using a custom `UserDetailsService` and `AuthenticationManager` along with Spring Data JPA repositories.
+Aplicación backend hecha con Java Spring-Boot 3, Spring-Security 6, que simula la logica de el registro de un usuario, sus cuentas, y las transacciones y el reflejo del saldo luego de un deposito o de un retiro de dinero, esta aplicación cuenta con autenticación mediante JWT que permite la navegación por sesiones de usuario en las cuales generará unicamente la información que cada usuario tenga disponible para si mismo, adicionalemente cuenta autorización de usuarios, funciones de manipulación de data CRUD y generación de reportes en excel de las transacciones del usuario
 
-When a successful login occurs, a JWT is generated and sent back to the user, the user can use this JWT in the header as a bearer token to access authenticated routes according to their roles
 
-[Follow the youtube tutorial here]()
+
+
+## Authors
+
+- https://github.com/SHUNNIORR
+
+
+## Funcionalidades clave
+
+- Login/Logout
+- Sesiones de usuarios
+- Autenticación de usuarios mediante JWT
+- Autorizacion de usuarios y roles
+- C.R.U.D
+- Generación de reportes en excel mediante Apache POI
+
